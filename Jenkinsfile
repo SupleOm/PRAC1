@@ -11,7 +11,8 @@ sh 'mvn install'
 }}
 stage(deploy){
 steps{
-sh 'target/PRAC1.war /home/omsuple/Devopstool/apache-tomcat-9.0.93/webapps'
+sh '''target/PRAC1.war /home/omsuple/Devopstool/apache-tomcat-9.0.93/webapps
+'''
 }}
 }
 }
